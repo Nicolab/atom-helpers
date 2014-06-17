@@ -26,7 +26,7 @@ var helpers = require('atom-helpers');
 helpers.extends(MyView, View);
 ```
 
-See an example of behavior in the unit tests file.
+See an example of behavior in the [unit tests file](https://github.com/Nicolab/atom-helpers/blob/master/test/index.js#L14).
 
 
 ## Unit tests

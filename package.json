@@ -1,7 +1,7 @@
 {
   "name": "atom-helpers",
   "version": "1.0.0",
-  "description": "A Node.JS package that provides helpers for Atome.io packages development (e.g: a vanilla JS equivalent of `class MyView extends View`...).",
+  "description": "A Node.JS package that provides helpers for Atom.io packages development (e.g: a vanilla JS equivalent of `class MyView extends View`...).",
   "keywords": [
     "atom",
     "atom.io",

@@ -2,7 +2,7 @@
 
 [![Actual version published on NPM](https://badge.fury.io/js/atom-helpers.png)](https://www.npmjs.org/package/atom-helpers)
 
-A Node.JS package that provides helpers for Atome.io packages development.
+A Node.JS package that provides helpers for Atom.io packages development.
 
 
 ## Install

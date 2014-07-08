@@ -14,6 +14,8 @@ npm install atom-helpers
 
 ## Usage
 
+### extends
+
 `extends` of coffeeScript
 ```coffee
 class MyView extends View
@@ -27,6 +29,46 @@ helpers.extends(MyView, View);
 ```
 
 See an example of behavior in the [unit tests file](https://github.com/Nicolab/atom-helpers/blob/master/test/index.js#L14).
+
+
+### editor
+
+#### editor.getCurrentBuffer()
+
+Get the current pane buffer.
+Returns the buffer `atom.workspace.activePaneItem.buffer` or `null`.
+
+```js
+var buffer = helpers.editor.getCurrentBuffer();
+```
+
+`buffer` === `atom.workspace.activePaneItem.buffer`
+
+
+#### editor.getCurrentFile()
+
+Get the current `File` instance.
+Returns an instance of [File](https://atom.io/docs/api/v0.110.0/api/classes/File.html) or `null`.
+
+```js
+// Object: File
+var currentFile = helpers.editor.getCurrentFile();
+```
+
+`currentFile` is an instance of [File](https://atom.io/docs/api/v0.110.0/api/classes/File.html).
+
+
+#### editor.getCurrentFilePath()
+
+Get the current file path.
+Returns the absolute file path (`string`) or `null`
+
+```js
+// string: /my-project/the-current-active-file.js
+var currentFilePath = helpers.editor.getCurrentFilePath();
+```
+
+`currentFilePath` is the absolute path of the current active file.
 
 
 ## Unit tests

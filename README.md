@@ -48,14 +48,14 @@ var buffer = helpers.editor.getCurrentBuffer();
 #### editor.getCurrentFile()
 
 Get the current `File` instance.
-Returns an instance of [File](https://atom.io/docs/api/v0.110.0/api/classes/File.html) or `null`.
+Returns an instance of [File](https://atom.io/docs/api/v0.120.0/api/classes/File.html) or `null`.
 
 ```js
 // Object: File
 var currentFile = helpers.editor.getCurrentFile();
 ```
 
-`currentFile` is an instance of [File](https://atom.io/docs/api/v0.110.0/api/classes/File.html).
+`currentFile` is an instance of [File](https://atom.io/docs/api/v0.120.0/api/classes/File.html).
 
 
 #### editor.getCurrentFilePath()
@@ -93,5 +93,4 @@ npm test
 | [![Nicolas Tallefourtane - Nicolab.net](http://www.gravatar.com/avatar/d7dd0f4769f3aa48a3ecb308f0b457fc?s=64)](http://nicolab.net) |
 |---|
 | [Nicolas Talle](http://nicolab.net) |
-| [![Support via Gittip](http://img.shields.io/gittip/Nicolab.svg)](https://www.gittip.com/Nicolab/) |
 | [![Make a donation via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PGRH4ZXP36GUC)

@@ -1,6 +1,7 @@
 # atom-helpers
 
 [![Actual version published on NPM](https://badge.fury.io/js/atom-helpers.png)](https://www.npmjs.org/package/atom-helpers)
+[![npm module downloads per month](http://img.shields.io/npm/dm/atom-helpers.svg)](https://www.npmjs.org/package/atom-helpers)
 
 A Node.JS package that provides helpers for Atom.io packages development.
 
@@ -48,14 +49,14 @@ var buffer = helpers.editor.getCurrentBuffer();
 #### editor.getCurrentFile()
 
 Get the current `File` instance.
-Returns an instance of [File](https://atom.io/docs/api/v0.120.0/api/classes/File.html) or `null`.
+Returns an instance of [File](https://atom.io/docs/api/v0.152.0/File.html) or `null`.
 
 ```js
 // Object: File
 var currentFile = helpers.editor.getCurrentFile();
 ```
 
-`currentFile` is an instance of [File](https://atom.io/docs/api/v0.120.0/api/classes/File.html).
+`currentFile` is an instance of [File](https://atom.io/docs/api/v0.152.0/File.html).
 
 
 #### editor.getCurrentFilePath()
@@ -73,7 +74,7 @@ var currentFilePath = helpers.editor.getCurrentFilePath();
 
 ## Unit tests
 
-`atom-helpers` is unit tested with [Unit.js](https://github.com/unitjs/unit.js)
+`atom-helpers` is unit tested with [Unit.js](http://unitjs.com)
 
 Run the tests
 ```shell
@@ -93,4 +94,4 @@ npm test
 | [![Nicolas Tallefourtane - Nicolab.net](http://www.gravatar.com/avatar/d7dd0f4769f3aa48a3ecb308f0b457fc?s=64)](http://nicolab.net) |
 |---|
 | [Nicolas Talle](http://nicolab.net) |
-| [![Make a donation via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PGRH4ZXP36GUC)
+| [![Make a donation via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PGRH4ZXP36GUC) |

@@ -37,26 +37,26 @@ See an example of behavior in the [unit tests file](https://github.com/Nicolab/a
 #### editor.getCurrentBuffer()
 
 Get the current pane buffer.
-Returns the buffer `atom.workspace.activePaneItem.buffer` or `null`.
+Returns the buffer `atom.workspace.getActivePaneItem().buffer` or `null`.
 
 ```js
 var buffer = helpers.editor.getCurrentBuffer();
 ```
 
-`buffer` === `atom.workspace.activePaneItem.buffer`
+`buffer` === `atom.workspace.getActivePaneItem().buffer`
 
 
 #### editor.getCurrentFile()
 
 Get the current `File` instance.
-Returns an instance of [File](https://atom.io/docs/api/v0.152.0/File.html) or `null`.
+Returns an instance of [File](https://atom.io/docs/api/latest/File.html) or `null`.
 
 ```js
 // Object: File
 var currentFile = helpers.editor.getCurrentFile();
 ```
 
-`currentFile` is an instance of [File](https://atom.io/docs/api/v0.152.0/File.html).
+`currentFile` is an instance of [File](https://atom.io/docs/api/latest/File.html).
 
 
 #### editor.getCurrentFilePath()
